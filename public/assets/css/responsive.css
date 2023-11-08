@@ -1,0 +1,539 @@
+@media only screen and (max-width:1750px){
+	.graphBox {
+		padding: 20px 30px;
+	}
+	.genHeading {
+		font-size: 28px;
+	}
+	.audioBox {
+		width: 450px;
+	}
+	.playlist-track-ctn {
+		width: 150px;
+		height: 150px;
+	}
+	.artist-profile-sec .mainContent {
+		padding: 30px;
+	}
+
+}
+@media only screen and (max-width:1540px){
+	.graphBox {
+		flex-direction: column;
+	}
+	.graphBox .textBox {
+		width: 100%;
+		padding-right: 0;
+		padding-bottom: 20px;
+	}
+	.infoCard {
+		height: 160px;
+	}
+	.infoRow {
+		padding-bottom: 50px;
+	}
+	.mainContent {
+		padding: 50px;
+	}
+	.tableWrap {
+		padding: 30px;
+	}
+	.dataTables_wrapper .dataTables_filter input {
+		width: 200px;
+	}
+	.messagesRow .leftCol, 
+	.messagesRow .rightCol {
+		width: 50%;
+	}
+	.msgBox .chatText {
+		font-size: 14px;
+	}
+	.settingsTabs 	.nav-pills .nav-link {
+		font-size: 30px;
+	}
+	.avatar-upload {
+		max-width: 90px;
+	}
+	.avatar-upload .avatar-preview {
+		width: 90px;
+		height: 90px;
+	}
+	.avatar-upload .avatar-edit input + label {
+		font-size: 26px;
+	}
+	.title101 {
+		font-size: 25px;
+		padding-left: 20px;
+	}
+	.updateBtn {
+		margin-top: 20px;
+		height: 65px;
+	}
+	.artist-profile-sec .mainContent {
+		width: calc(100% - 300px);
+	}
+	.artist-profile-sec .mainContent.active {
+		width: 100%;
+	}
+	.audioBox {
+		width: 370px;
+		position: fixed;
+		right: -450px;
+		top: 0;
+		height: 100vh;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+		transition: all 0.8s;
+		z-index: 999;
+	}
+	.audioBox.active {
+		right: 0;
+	}
+	#myProgress {
+		width: 300px;
+	}
+	.actionWtap {
+		max-width: 210px;
+	}
+	.audioImg {
+		width: 300px;
+		height: 450px;
+	}
+	.playAudio {
+		width: 66px;
+		height: 66px;
+		font-size: 25px;
+	}
+	.closeAudio {
+		display: flex;
+	}
+	.artistInfoBox {
+		max-width: 100%;
+	}
+	.playlist-ctn {
+		justify-content: flex-start;
+	}
+	.playlist-track-ctn {
+		margin-right: 12px;
+	}
+}
+@media only screen and (max-width:1366px){
+	.infoCard .amount {
+		font-size: 35px;
+	}
+	.infoCard .desc {
+		font-size: 16px;
+	}
+	.mainContent {
+		padding: 30px 30px 0px 30px;
+		width: calc(100% - 260px);
+	}
+	.artist-profile-sec .mainContent {
+		width: calc(100% - 260px);
+	}
+	aside.sideMenu {
+		max-width: 260px;
+	}
+	.navItem {
+		padding: 20px 20px 20px 20px;
+	}
+	.navItem .desc {
+		font-size: 16px;
+	}
+	.headerbar {
+		padding: 15px 20px 15px 20px;
+	}
+	.secRow {
+		margin-top: 85px;
+	}
+	.headingMain {
+		font-size: 35px;
+	}
+	.nameMain {
+		font-size: 16px;
+	}
+	.audioBox .heading {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	table.dataTable thead th {
+		font-size: 15px;
+	}
+	table.dataTable th, table.dataTable td {
+		font-size: 13px;
+	}
+	.eveDate {
+		height: 30px;
+		overflow: auto;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+	}
+	.eveDate::-webkit-scrollbar {
+		width: 4px;
+	}
+	.btnWrap {
+		max-width: 45px;
+		margin: auto;
+	}
+	.editIcon {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width:1280px){
+	aside.sideMenu {
+		position: fixed!important;
+		z-index: 999;
+		background: #fff;
+		top: auto;
+		left: -260px!important;
+		transition: all 0.7s;
+		padding-top: 50px;
+	}
+	.sideMenu.active {
+		left: 0!important;
+	}
+	.mainContent {
+		width: 100%;
+	}
+	.artist-profile-sec .mainContent {
+		width: 100%;
+		padding: 15px;
+	}
+	.navItem.pt-5 {
+		padding-top: 20px!important;
+	}
+	.closeAside {
+		display: flex;
+	}
+	.genForm {
+		padding: 0px 12px;
+	}
+	.heading {
+		font-size: 27px;
+	}
+	.backBtn {
+		width: 40px;
+		height: 40px;
+		top: 15px;
+		left: 30px;
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width:1024px){
+	.messagesRow .leftCol, 
+	.messagesRow .rightCol {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.messagesRow {
+		flex-wrap: wrap;
+	}
+	.writeMsg .form-group {
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width:991px){
+	.graphBox {
+		margin-bottom: 3rem;
+	}
+	.infoCard .amount {
+		font-size: 28px;
+	}
+	.infoCard {
+		height: 130px;
+	}
+	.graphBox {
+		padding: 20px;
+	}
+	.artistInfoBox {
+		padding: 25px;
+	}
+	.artistImg .imgBox img {
+		width: 70px;
+		height: 70px;
+	}
+	.artistImg .textBox {
+		width: calc(100% - 70px);
+	}
+	.artistImg .textBox .name {
+		font-size: 25px;
+	}
+	.followBox .desc {
+		font-size: 16px;
+	}
+	.followBox .counts {
+		font-size: 18px;
+	}
+	.msgBtn {
+		max-width: 165px;
+		height: 60px;
+		font-size: 16px;
+	}
+	.loginLogo {
+		max-width: 240px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width:767px){
+	.infoRow {
+		padding-bottom: 25px;
+		flex-direction: column;
+	}
+	.infoCard {
+		max-width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.toggleBtn {
+		width: 30px;
+		height: 30px;
+		font-size: 28px;
+	}
+	.mainContent {
+		padding: 15px;
+	}
+	.footerDesc, .footerDesc a {
+		font-size: 10px;
+	}
+	.headingMain {
+		font-size: 22px;
+		text-align: center;
+	}
+	.nameMain {
+		display: none;
+	}
+	.profileDDown {
+		justify-content: flex-end;
+	}
+	.navIcon img {
+		max-width: 18px;
+	}
+	.tableWrap {
+		padding: 20px 10px;
+	}
+	.overFlow {
+		overflow-x: auto;
+	}
+	table.dataTable thead th {
+		font-size: 14px;
+	}
+	table.dataTable tbody td {
+		padding: 6px;
+		font-size: 14px;
+	}
+	table.dataTable td button {
+		font-size: 14px;
+	}
+	.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+		float: right;
+		text-align: center;
+	}
+	#table_id_filter {
+		margin-right: 0;
+	}
+	.profileEdit .topInfo1 {
+		margin-bottom: 30px!important;
+	}
+	.profileEdit {
+		margin-bottom: 30px;
+	}
+	.profileInput {
+		height: 62px;	
+		font-size: 16px;
+	}
+	.topInfo {
+		flex-direction: column;
+		padding-bottom: 16px!important;
+	}
+	.followWrap {
+		padding: 25px 0px;
+	}
+	.dataInfo {
+		margin-bottom: 20px;
+	}
+	.dataInfo .desc {
+		font-size: 14px;
+	} 
+	.artistImg {
+		flex-direction: column;
+	}
+	.artistImg .textBox {
+		width: 100%;
+	}
+	.msgBtn {
+		max-width: 120px;
+		height: 45px;
+	}
+	.audioImg {
+		width: 280px;
+		height: 400px;
+	}
+	.playAudio {
+		width: 60px;
+		height: 60px;
+		font-size: 22px;
+	}
+	.actionWtap {
+		max-width: 210px;
+	}
+	.audioBox {
+		width: 310px;
+	}
+	.audioBox .heading {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.initial-sec .initialCol2 {
+		display: none;
+	}
+	.heading {
+		font-size: 22px;
+	}
+	.mobileLogo {
+		display: block;
+	}
+	.initial-sec.signup-sec {
+		padding: 40px 0px;
+	}
+	.forgotBtn, .btmText , .genLabel, .genInput{
+		font-size: 16px;
+	}
+	.digit-group input {
+		width: 50px!important;
+		height: 50px!important;
+		font-size: 16px;
+	}
+	.eventForm .eventInput {
+		height: 60px;
+		font-size: 16px;
+	}
+	.eventForm .textArea {
+		height: 100px;
+		padding: 10px;
+	}
+	.eventForm .genBtn {
+		height: 60px;
+		font-size: 18px;
+	}
+	.eventForm .label1 {
+		font-size: 18px;
+	}
+	.genModal .modal-body {
+		padding: 35px 22px;
+	}
+	.closeBtn {
+		width: 30px;
+		height: 30px;
+		font-size: 17px;
+	}
+
+}
+@media only screen and (max-width:575px){
+	.memeberItem .imgBox img {
+		max-width: 40px;
+	}
+	.memeberItem .textBox {
+		width: calc(100% - 40px);
+		padding-left: 8px;
+	}
+	.memeberItem .textBox .date {
+		font-size: 10px;
+		font-weight: 700;
+	}
+	.memeberItem .textBox .desc {
+		font-size: 12px;
+	}
+	.msgInner {
+		padding: 15px;
+	}
+	.memeberItem .textBox .name {
+		font-size: 15px;
+	}
+	.sendBtn {
+		max-width: 60px;
+		width: 100%;
+		height: 60px;
+		font-size: 13px;
+	}
+	.attachIcon {
+		width: 30px;
+		height: 30px;
+		font-size: 18px;
+		right: 66px;
+	}
+	.msgWriter {
+		font-size: 14px;
+	}
+	.searchBar .msgSearch {
+		height: 60px;
+		font-size: 16px;
+	}
+	.srchBtn {
+		width: 50px;
+		height: 50px;
+		font-size: 18px;
+		color: #fff;
+		background: rgb(237,173,34);
+		background: linear-gradient(356deg, rgba(237,173,34,1) 23%, rgba(190,122,48,1) 77%);
+		border-radius: 10px;
+		overflow: hidden;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 5px;
+	}
+	.readAll {
+		font-size: 14px;
+	}
+	.loadMore {
+		font-size: 16px;
+	}
+	.messagesRow .leftCol .chatBox {
+		height: auto;
+	}
+	.settingsTabs 	.nav-pills .nav-link {
+		font-size: 20px;
+	}
+	.paymentCard {
+		margin: 12px;
+	}
+	.cardRow {
+		max-width: 650px;
+		margin-bottom: 45px;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.paymentCard img {
+		max-width: 80px;
+	}
+	.btnCol {
+		flex-direction: column-reverse;
+	}
+	.proceedBtn {
+		max-width: 100%;
+		height: 65px;
+		margin-bottom: 10px;
+	}
+	.modalSong {
+		max-width: 140px;
+		height: 140px;
+	}
+	.bgImg {
+		max-width: 140px;
+		height: 140px;
+	}
+	.amount .rate {
+		font-size: 40px;
+	}
+	.playlist-track-ctn {
+		width: 130px;
+		height: 130px;
+		margin: 5px auto;
+	}
+	.dataInfo .desc span {
+		padding-right: 5px;
+	}
+	.genBtn {
+		height: 70px;
+	}
+}
